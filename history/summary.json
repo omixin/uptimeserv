@@ -5,16 +5,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/94.159.114.1133.ico",
     "slug": "vpn-serv",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.69%",
+    "uptimeDay": "99.69%",
+    "uptimeWeek": "99.69%",
+    "uptimeMonth": "99.69%",
+    "uptimeYear": "99.69%",
     "time": 595,
     "timeDay": 595,
     "timeWeek": 595,
     "timeMonth": 595,
     "timeYear": 595,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-04-16": 0
+    }
   }
 ]
