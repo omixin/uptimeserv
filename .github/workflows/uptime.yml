@@ -17,7 +17,7 @@
 name: Uptime CI
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "* * * * *"
   repository_dispatch:
     types: [uptime]
   workflow_dispatch:
@@ -38,3 +38,11 @@ jobs:
         env:
           GH_PAT: ${{ secrets.GH_PAT || github.token }}
           SECRETS_CONTEXT: ${{ toJson(secrets) }}
+      - name: Send ntfy notification on failure
+        if: failure()
+        run: |
+          curl -H "Title: Site DOWN" \
+               -H "Priority: 5" \
+               -H "Tags: alert,rotating_light" \
+               -d "Один из ваших сайтов недоступен! Проверьте панель Upptime." \
+               https://ntfy.sh/alertnesss
