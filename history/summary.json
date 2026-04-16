@@ -1,22 +1,22 @@
 [
   {
     "name": "vpn serv",
-    "url": "https://94.159.114.1133:51545/5Ei1LNU1lRbDqDeQ1p/",
-    "icon": "https://icons.duckduckgo.com/ip3/94.159.114.1133.ico",
+    "url": "https://94.159.114.133:51545/5Ei1LNU1lRbDqDeQ1p/",
+    "icon": "https://icons.duckduckgo.com/ip3/94.159.114.133.ico",
     "slug": "vpn-serv",
-    "status": "down",
-    "uptime": "99.49%",
-    "uptimeDay": "99.49%",
-    "uptimeWeek": "99.49%",
-    "uptimeMonth": "99.49%",
-    "uptimeYear": "99.49%",
-    "time": 647,
-    "timeDay": 647,
-    "timeWeek": 647,
-    "timeMonth": 647,
-    "timeYear": 647,
+    "status": "up",
+    "uptime": "94.52%",
+    "uptimeDay": "94.52%",
+    "uptimeWeek": "94.52%",
+    "uptimeMonth": "94.52%",
+    "uptimeYear": "94.52%",
+    "time": 617,
+    "timeDay": 617,
+    "timeWeek": 617,
+    "timeMonth": 617,
+    "timeYear": 617,
     "dailyMinutesDown": {
-      "2026-04-16": 0
+      "2026-04-16": 2
     }
   }
 ]
