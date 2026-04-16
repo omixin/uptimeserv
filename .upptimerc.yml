@@ -6,7 +6,7 @@ sites:
   - name: Google
     url: https://www.google.com
   - name: vpn serv
-    url: https://94.159.114.1313:51545/5Ei1LNU1lRbDqDeQ1p/
+    url: https://94.159.114.133:51545/5Ei1LNU1lRbDqDeQ1p/
     __dangerous__disable_verify_ssl: true
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
