@@ -22,13 +22,13 @@ status-website:
       href: https://github.com/$OWNER/$REPO
 notifications:
   - type: webhook
-    url: https://ntfy.sh/alertnesss
+    url: https://ntfy.sh
     method: POST
     headers:
-      - "Title: Upptime Alert"
-      - "Priority: high"
-      - "Tags: warning,dns"
-    body: "Сайт упал!"
+      - "Title: Upptime Monitor"
+      - "Priority: 4"
+      - "Tags: warning"
+    body: "упал сайт"
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
