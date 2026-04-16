@@ -28,7 +28,7 @@ notifications:
       - "Title: Upptime Alert"
       - "Priority: high"
       - "Tags: warning,dns"
-    body: "$EVENT_MESSAGE"
+    body: "Сайт упал!"
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
