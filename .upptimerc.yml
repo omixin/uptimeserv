@@ -22,6 +22,6 @@ status-website:
       href: https://github.com/$OWNER/$REPO
   notifications:
   - type: ntfy
-    topic: alert_for_servvpnfin1
+    topic: alertnesss
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
